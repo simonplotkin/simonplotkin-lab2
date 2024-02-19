@@ -4,3 +4,4 @@ My new OOP design makes developing TypeC easy because I can utilize fields and m
 
 The clearest example in my code of a polymorphic function call is in the moveAll(Random rand) function definition in ThingList.java. There, it goes through the list of all Thing objects in the linked list and utilizes their maybeTurn() function. Each Thing object in the linked list is either TypeA, TypeB, or TypeC with each their own uniquely defined maybeTurn() methods. 
 
+![image](UML.png)
