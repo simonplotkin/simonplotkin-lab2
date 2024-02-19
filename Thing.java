@@ -5,7 +5,6 @@ public abstract class Thing {
     protected int col;
     protected int dir;
     protected char lab = 'r';
-    public boolean isTypeB;
 
     public void rightTurn() {
         dir = (dir + 1) % 4;
